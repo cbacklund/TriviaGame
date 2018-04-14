@@ -16,13 +16,16 @@
     <h1>Trivia Game</h1>
 
     <div class="container">
-            <div class="row"></div>
-                <div class="col-6" id="question"></div>
-                <div class="col-6" id="result"></div>
-            <button class="row bg-secondary text-light" id="answer1">b</button>
-            <button class="row bg-secondary text-light" id="answer2">c</button>
-            <button class="row bg-secondary text-light" id="answer3">d</button>
-            <button class="row bg-secondary text-light" id="answer4">e</button>
+            <div class="row">
+                <div class="col-6" id="question">Question:</div>
+                <div class="col-6" id="result">Answer:</div>
+            </div><!-- row close out -->
+            <div class="row">
+                <div class="col-4" id="correct">Correct:</div>
+                <div class="col-4" id="incorrect">Incorrect:</div>
+                <div class="col-4" id="unanswered">Unanswered:</div>
+            </div><!-- row close out -->
+            <button class="row bg-secondary text-light" id="answer1"></button>
             <button class="bg-info text-light" id="button">Start</button>
             <div class="row" id="pics"></div>
     </div> <!-- container close out --> 
